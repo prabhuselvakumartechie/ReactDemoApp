@@ -14,7 +14,7 @@ const DisplayEmpDetails = (props) => {
     return(
         <tbody>
             <tr className="empDetails_content">
-                
+                <td>{name}</td>
                 <td>{empid}</td>
                 <td>{props.department}</td>
                 <td>
