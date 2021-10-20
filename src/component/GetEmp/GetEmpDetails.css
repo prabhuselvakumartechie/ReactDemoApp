@@ -1,7 +1,7 @@
 input[type=text], input[type=number] {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 2px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
