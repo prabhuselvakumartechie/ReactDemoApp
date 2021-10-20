@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+.header {
+  text-align: center;
+}
+
+.empDetails_table {
+  width: 600px;
+  margin: 0 auto;
+  background: #c5bebe;
+  border-radius: 12px;
+  box-shadow: -1px 1px 5px 4px gainsboro;  
+}
+
+.empDetails_head th {
+  padding: 20px 10px;
+}
+
+.success, .error {
+    color: #fff;
+    border: 0;
+    padding: 6px;
+}
+
+.success {
+  background: green;
+}
+
+.error {
+  background: red;
+}
