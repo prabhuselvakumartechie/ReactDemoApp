@@ -3,7 +3,7 @@ import DisplayEmpDetails from "./DisplayEmpDetails";
 
 const DisplayEmpTable = (props) => {
 
-    console.log(props);
+    // console.log(props);
 
     return(
         <div className="empDetails_wrapper">

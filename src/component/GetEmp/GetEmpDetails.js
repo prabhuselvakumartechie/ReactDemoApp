@@ -31,18 +31,18 @@ const GetEmpDetails = (props) => {
         {
             setIsNumValid(false);
         }
-        console.log(setIsNameValid);
         if(!(data.department).length>0)
         {
             setIsDepValid(false);
             return;
         }
-        console.log(setIsNameValid);
+        // console.log(setIsNameValid);
     }
     
     const submitHandler = (event) => {
         event.preventDefault();
         const employeeData = {
+            key: Math.random().toString(),
             name: enteredName,
             emp_id: enteredId,
             department: enteredDep,

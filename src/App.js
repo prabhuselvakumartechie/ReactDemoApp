@@ -40,11 +40,8 @@ const App = () => {
       ...enteredData
     }
 
-    let temp = employeeDetails;
-    temp = temp.push(empData);
-    setEmployeeDetails(temp);
+    setEmployeeDetails([...employeeDetails, empData]);
 
-    console.log(empData);
   };
 
   return (
