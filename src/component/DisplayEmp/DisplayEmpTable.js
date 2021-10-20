@@ -3,6 +3,8 @@ import DisplayEmpDetails from "./DisplayEmpDetails";
 
 const DisplayEmpTable = (props) => {
 
+    console.log(props);
+
     return(
         <div className="empDetails_wrapper">
             <table className="empDetails_table">
@@ -14,7 +16,7 @@ const DisplayEmpTable = (props) => {
                         <th>Actions</th>
                     </tr>
                 </thead>
-                { props.empDetails.map((empData) => (
+                {props.empDetails.map((empData) => (
                      <DisplayEmpDetails 
                         name={empData.name} 
                         emp_id={empData.emp_id}
